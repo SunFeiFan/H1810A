@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ViewPagerActivity">
+
+
+
+
+    <android.support.v4.view.ViewPager
+         android:id="@+id/vp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"/>
+
+
+     <Button
+         android:id="@+id/bt"
+         android:visibility="gone"
+         android:text="进入应用~~~"
+         android:background="@drawable/re_btn_select"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="36dp" />
+
+<!--
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="205dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="143dp"
+        android:text="TextView" />-->
+</RelativeLayout>

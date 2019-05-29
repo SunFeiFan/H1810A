@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="5000">
+    <!--动画执行时长  ↑ -->
+    <!--旋转动画        从 ？ 度               到 ？ 度                   X旋转中心           Y旋转中心-->
+    <rotate
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="360" />
+    <!--渐变动画        从 ？ 透明度             到 ？ 透明度-->
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0" />
+    <!--平移动画        从 X 的 ？ 位置          到 X 的 ？ 位置-->
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="200" />
+    <!--缩放动画        沿 Y ？ 开始           沿 X 到 ？缩放        沿 X ？ 开始           沿 Y 到 ？缩放         X缩放中心           Y缩放中心-->
+    <scale
+        android:fromXScale="0"
+        android:fromYScale="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1"
+        android:toYScale="1" />
+</set>
